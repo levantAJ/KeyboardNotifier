@@ -7,7 +7,7 @@
 //
 
 open class Keyboard {
-    public static let shared = Keyboard()
+    public static let current = Keyboard()
     var keyboardWillAppearHandler: ((CGRect) -> Void)?
     var keyboardDidAppearHandler: ((CGRect) -> Void)?
     var keyboardWillDisappearHandler: ((CGRect) -> Void)?
