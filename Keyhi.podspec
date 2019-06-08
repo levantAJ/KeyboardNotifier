@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Keyhi'
-  s.version = '1.1'
+  s.version = '1.2'
   s.summary = 'Keyhi manages Keyboard will/did show/hide'
   s.description = <<-DESC
   Keyhi written on Swift 5.0 by levantAJ
