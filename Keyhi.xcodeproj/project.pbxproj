@@ -10,7 +10,7 @@
 		8DA1A21D22ABA7CF00D1EB49 /* Keyhi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA1A21322ABA7CF00D1EB49 /* Keyhi.framework */; };
 		8DA1A22222ABA7CF00D1EB49 /* KeyhiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1A22122ABA7CF00D1EB49 /* KeyhiTests.swift */; };
 		8DA1A22422ABA7CF00D1EB49 /* Keyhi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA1A21622ABA7CF00D1EB49 /* Keyhi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DA1A22E22ABA80000D1EB49 /* Keyhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1A22D22ABA80000D1EB49 /* Keyhi.swift */; };
+		8DA1A22E22ABA80000D1EB49 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1A22D22ABA80000D1EB49 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		8DA1A21C22ABA7CF00D1EB49 /* KeyhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA1A22122ABA7CF00D1EB49 /* KeyhiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyhiTests.swift; sourceTree = "<group>"; };
 		8DA1A22322ABA7CF00D1EB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DA1A22D22ABA80000D1EB49 /* Keyhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyhi.swift; sourceTree = "<group>"; };
+		8DA1A22D22ABA80000D1EB49 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA1A21622ABA7CF00D1EB49 /* Keyhi.h */,
-				8DA1A22D22ABA80000D1EB49 /* Keyhi.swift */,
+				8DA1A22D22ABA80000D1EB49 /* Keyboard.swift */,
 				8DA1A21722ABA7CF00D1EB49 /* Info.plist */,
 			);
 			path = Keyhi;
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA1A22E22ABA80000D1EB49 /* Keyhi.swift in Sources */,
+				8DA1A22E22ABA80000D1EB49 /* Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

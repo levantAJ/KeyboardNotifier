@@ -6,8 +6,8 @@
 //  Copyright © 2019 levantAJ. All rights reserved.
 //
 
-open class Keyhi {
-    public static let shared = Keyhi()
+open class Keyboard {
+    public static let shared = Keyboard()
     var keyboardWillAppearHandler: ((CGRect) -> Void)?
     var keyboardDidAppearHandler: ((CGRect) -> Void)?
     var keyboardWillDisappearHandler: ((CGRect) -> Void)?
@@ -40,7 +40,7 @@ open class Keyhi {
 
 // MARK: - User Interations
 
-extension Keyhi {
+extension Keyboard {
     @objc func keyboardWillAppear(notification: NSNotification) {
         guard let rect = keyboardRect(from: notification) else { return }
         keyboardWillAppearHandler?(rect)
@@ -64,7 +64,7 @@ extension Keyhi {
 
 // MARK: - Privates
 
-extension Keyhi {
+extension Keyboard {
     private func keyboardRect(from notification: NSNotification) -> CGRect? {
         return (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue
     }
