@@ -14,28 +14,28 @@ pod 'Keyhi'
 
 - To check keyboard will appear:
 ```
-Keyhi.shared.willAppear { keyboardFrame in
+Keyboard.current.willAppear { keyboardFrame in
   print(keyboardFrame)
 }
 ``` 
 
 - To check keyboard did appear:
 ```
-Keyhi.shared.didAppear { keyboardFrame in
+Keyboard.current.didAppear { keyboardFrame in
   print(keyboardFrame)
 }
 ``` 
 
 - To check keyboard will disappear:
 ```
-Keyhi.shared.willDisappear { keyboardFrame in
+Keyboard.current.willDisappear { keyboardFrame in
   print(keyboardFrame)
 }
 ``` 
 
 - To check keyboard did disappear:
 ```
-Keyhi.shared.didDisappear { keyboardFrame in
+Keyboard.current.didDisappear { keyboardFrame in
   print(keyboardFrame)
 }
 ``` 
