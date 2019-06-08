@@ -6,8 +6,6 @@
 //  Copyright © 2019 levantAJ. All rights reserved.
 //
 
-import UIKit
-
 open class Keyhi {
     public static let shared = Keyhi()
     var keyboardWillAppearHandler: ((CGRect) -> Void)?
