@@ -1,41 +1,45 @@
-# ⌨️ Keyhi
-*Keyhi* manages Keyboard `will`/`did` `show`/`hide`
+# ⌨️ KeyboardNotifier
+* KeyboardNotifier* manages Keyboard `will`/`did` `show`/`hide`
 
 ## Install
 
 Using CocoaPods:
 ```
-pod 'Keyhi'
+pod 'KeyboardNotifier'
 ```
 
 ## How to use:
 
-`import Keyhi`
+`import KeyboardNotifier`
 
-- To check keyboard will appear:
+- To check keyboard will show:
+
 ```
-Keyboard.current.willAppear { keyboardFrame in
-  print(keyboardFrame)
+Keyboard.current.willShow { info in
+	print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
-- To check keyboard did appear:
+- To check keyboard did show:
+
 ```
-Keyboard.current.didAppear { keyboardFrame in
-  print(keyboardFrame)
+Keyboard.current.didShow { info in
+	print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
-- To check keyboard will disappear:
+- To check keyboard will hide:
+
 ```
-Keyboard.current.willDisappear { keyboardFrame in
-  print(keyboardFrame)
+Keyboard.current.willHide { info in
+	print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
-- To check keyboard did disappear:
+- To check keyboard did hide:
+
 ```
-Keyboard.current.didDisappear { keyboardFrame in
-  print(keyboardFrame)
+Keyboard.current.didHide { info in
+	print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
