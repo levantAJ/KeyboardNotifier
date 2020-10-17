@@ -10,11 +10,13 @@ pod 'KeyboardNotifier'
 
 ## How to use:
 
-`import KeyboardNotifier`
+```swift
+import KeyboardNotifier
+```
 
 - To check keyboard will show:
 
-```
+```swift
 Keyboard.current.willShow { info in
     print(info.keyboardFrame, info.animationDuration)
 }
@@ -22,7 +24,7 @@ Keyboard.current.willShow { info in
 
 - To check keyboard did show:
 
-```
+```swift
 Keyboard.current.didShow { info in
     print(info.keyboardFrame, info.animationDuration)
 }
@@ -30,7 +32,7 @@ Keyboard.current.didShow { info in
 
 - To check keyboard will hide:
 
-```
+```swift
 Keyboard.current.willHide { info in
     print(info.keyboardFrame, info.animationDuration)
 }
@@ -38,7 +40,7 @@ Keyboard.current.willHide { info in
 
 - To check keyboard did hide:
 
-```
+```swift
 Keyboard.current.didHide { info in
     print(info.keyboardFrame, info.animationDuration)
 }
