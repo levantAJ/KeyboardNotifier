@@ -1,12 +1,8 @@
-
-<font size="500">⌨️</font>
-
-
 [![Pod Version](https://cocoapod-badges.herokuapp.com/v/KeyboardNotifier/badge.png)](http://cocoadocs.org/docsets/KeyboardNotifier/)
 [![Pod Platform](https://cocoapod-badges.herokuapp.com/p/KeyboardNotifier/badge.png)](http://cocoadocs.org/docsets/KeyboardNotifier/)
 [![Pod License](https://cocoapod-badges.herokuapp.com/l/KeyboardNotifier/badge.png)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-# KeyboardNotifier
+# ⌨️ KeyboardNotifier
 *KeyboardNotifier* manages Keyboard's visibility
 
 ## Requirements
@@ -69,7 +65,7 @@ Keyboard.current.didHide { info in
 
 If you run into an issue that `KeyboardNotifier` unable to found.
 
-```
+```ruby
 [!] Unable to find a specification for `KeyboardNotifier`
 
 You have either:
