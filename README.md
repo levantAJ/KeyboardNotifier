@@ -4,7 +4,8 @@
 ## Install
 
 Using CocoaPods:
-```
+
+```ruby
 pod 'KeyboardNotifier'
 ```
 
