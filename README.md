@@ -1,5 +1,5 @@
 # ⌨️ KeyboardNotifier
-* KeyboardNotifier* manages Keyboard `will`/`did` `show`/`hide`
+*KeyboardNotifier* manages Keyboard's visibility
 
 ## Install
 
