@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = '1.3'
   s.summary = 'KeyboardNotifier manages Keyboard will/did show/hide'
   s.description = <<-DESC
-  Keyhi written on Swift 5.0 by levantAJ
+  KeyboardNotifier written on Swift 5.0 by levantAJ
                        DESC
   s.homepage = 'https://github.com/levantAJ/KeyboardNotifier'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
