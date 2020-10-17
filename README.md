@@ -16,7 +16,7 @@ pod 'KeyboardNotifier'
 
 ```
 Keyboard.current.willShow { info in
-	print(info.keyboardFrame, info.animationDuration)
+    print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
@@ -24,7 +24,7 @@ Keyboard.current.willShow { info in
 
 ```
 Keyboard.current.didShow { info in
-	print(info.keyboardFrame, info.animationDuration)
+    print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
@@ -32,7 +32,7 @@ Keyboard.current.didShow { info in
 
 ```
 Keyboard.current.willHide { info in
-	print(info.keyboardFrame, info.animationDuration)
+    print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
 
@@ -40,6 +40,6 @@ Keyboard.current.willHide { info in
 
 ```
 Keyboard.current.didHide { info in
-	print(info.keyboardFrame, info.animationDuration)
+    print(info.keyboardFrame, info.animationDuration)
 }
 ``` 
