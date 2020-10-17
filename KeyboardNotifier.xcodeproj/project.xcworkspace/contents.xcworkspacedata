@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Keyhi.xcodeproj">
+      location = "self:/Users/levantai/levantAJ/Keyhi/KeyboardNotifier.xcodeproj">
    </FileRef>
 </Workspace>

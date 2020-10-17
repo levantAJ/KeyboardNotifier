@@ -1,15 +1,15 @@
 //
-//  KeyhiTests.swift
-//  KeyhiTests
+//  KeyboardNotifierTests.swift
+//  KeyboardNotifierTests
 //
 //  Created by levantAJ on 6/8/19.
 //  Copyright © 2019 levantAJ. All rights reserved.
 //
 
 import XCTest
-@testable import Keyhi
+@testable import KeyboardNotifier
 
-class KeyhiTests: XCTestCase {
+class KeyboardNotifierTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
