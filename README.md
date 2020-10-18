@@ -5,6 +5,8 @@
 # ⌨️ KeyboardNotifier
 *KeyboardNotifier* manages Keyboard's visibility
 
+![KeyboardNotifier - Frrankly](https://user-images.githubusercontent.com/6329656/96358780-485e2380-1135-11eb-9c07-2a52321e38d5.gif)
+
 ## Requirements
 
 - iOS 9.0 or later
